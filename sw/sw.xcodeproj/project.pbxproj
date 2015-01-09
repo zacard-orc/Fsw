@@ -12,6 +12,7 @@
 		D250F71E1A5971A80069B755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D250F71C1A5971A80069B755 /* Main.storyboard */; };
 		D250F7201A5971A80069B755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D250F71F1A5971A80069B755 /* Images.xcassets */; };
 		D250F72C1A5971A80069B755 /* swTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250F72B1A5971A80069B755 /* swTests.swift */; };
+		D250F7361A6022BD0069B755 /* aa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D250F7351A6022BD0069B755 /* aa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		D250F7251A5971A80069B755 /* swTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D250F72A1A5971A80069B755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D250F72B1A5971A80069B755 /* swTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swTests.swift; sourceTree = "<group>"; };
+		D250F7351A6022BD0069B755 /* aa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				D250F71C1A5971A80069B755 /* Main.storyboard */,
 				D250F71F1A5971A80069B755 /* Images.xcassets */,
 				D250F7161A5971A80069B755 /* Supporting Files */,
+				D250F7351A6022BD0069B755 /* aa.swift */,
 			);
 			path = sw;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D250F71B1A5971A80069B755 /* ViewController.swift in Sources */,
+				D250F7361A6022BD0069B755 /* aa.swift in Sources */,
 				D250F7191A5971A80069B755 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +401,7 @@
 				D250F7311A5971A80069B755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D250F7321A5971A80069B755 /* Build configuration list for PBXNativeTarget "swTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				D250F7341A5971A80069B755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
