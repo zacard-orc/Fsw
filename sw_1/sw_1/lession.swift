@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+
+let possibleString: String? = "An optional string."
+
+println("222")
